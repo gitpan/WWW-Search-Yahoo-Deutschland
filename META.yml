@@ -17,4 +17,4 @@ no_index:
     - t
 requires: 
   WWW::Search::Yahoo: 0
-version: 1.003
+version: 1.004

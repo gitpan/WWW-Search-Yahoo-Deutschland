@@ -39,7 +39,7 @@ There are no tests defined for this module.
 
 =head1 AUTHOR
 
-C<WWW::Search::Yahoo> is maintained by Martin Thurn
+C<WWW::Search::Yahoo::Deutschland> is maintained by Martin Thurn
 (mthurn@cpan.org).
 
 =head1 LEGALESE
@@ -61,7 +61,7 @@ use WWW::Search::Yahoo;
 use vars qw( @ISA $VERSION $MAINTAINER );
 @ISA = qw( WWW::Search::Yahoo );
 
-$VERSION = do { my @r = (q$Revision: 1.3 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.4 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 $MAINTAINER = 'Martin Thurn <mthurn@cpan.org>';
 
 =head2 native_setup_search
